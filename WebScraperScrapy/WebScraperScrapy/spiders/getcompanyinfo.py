@@ -30,9 +30,10 @@ class GetCompanyInfo_Spider(scrapy.Spider):
         'http://www.nepalstock.com/company'
     ]
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(self, *args, *kwargs)
-        self.driver = webdriver.Chrome(executable_path=os.path.join(point2.AbsoluteProjectRoot,"Driver","chromedriver.exe"), options=chrome_options)
+    #def __init__(self, *args, **kwargs):
+    def __init__(self):
+        #super().__init__(self, *args, *kwargs)
+        self.driver = webdriver.Chrome(executable_path = point2.ChromeDriverLocation, options=chrome_options)
 
 
     @staticmethod
