@@ -69,6 +69,12 @@ Thumbs.db
 # Python Virtual Environment
 env/
 
+# Python Stub Testing File
+test.py 
+
+# Shortcuts
+*.lnk
+
 # Binaries
 # --------
 *.dll
