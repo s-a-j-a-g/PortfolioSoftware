@@ -9,7 +9,7 @@ from PySide2.QtQml import QQmlApplicationEngine
 if __name__ == "__main__":
     app = QGuiApplication(sys.argv)
     engine = QQmlApplicationEngine()
-    engine.load(os.path.join(os.path.dirname(__file__), "QMLFiles","main.qml"))
+    engine.load(os.path.join(os.path.dirname(__file__), "QMLFiles","SplashScreen.qml"))
     print("Program Running")
 
     if not engine.rootObjects():
