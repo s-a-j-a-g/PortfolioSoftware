@@ -12,7 +12,7 @@ Window {
     color: "#00000000"
 
     //Remove Title Bar
-    flags: Qt.SplashScreen | Qt.FramelessWindowHint
+    //flags: Qt.SplashScreen | Qt.FramelessWindowHint
 
     Rectangle {
         id: bg
@@ -225,6 +225,6 @@ Window {
 
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:1.1}D{i:5}D{i:7}
+    D{i:0;formeditorZoom:1.100000023841858}D{i:7}
 }
 ##^##*/
