@@ -1,7 +1,12 @@
 <RCC>
   <qresource prefix="images">
-    <file>images/images/PyDracula.png</file>
-    <file>images/images/PyDracula_vertical.png</file>
+    <file>images/images/icon.png</file>
+    <file>images/images/things_you_should_do.png</file>
+    <file>images/images/logo.png</file>
+    <file>images/images/get_vaccinated.png</file>
+    <file>images/images/symptoms.png</file>
+    <file>images/images/nepal_flag.png</file>
+    <file>images/images/world.png</file>
   </qresource>
   <qresource prefix="icons">
     <file>images/icons/cil-3d.png</file>

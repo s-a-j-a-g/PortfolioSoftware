@@ -2,7 +2,7 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvasQTAgg
-from PyQt5.QtWidgets import QApplication, QWidget
+from PySide2 import QApplication, QWidget
 import csv
 import pandas as pd
 

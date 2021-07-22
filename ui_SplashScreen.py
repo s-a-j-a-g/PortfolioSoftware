@@ -17,7 +17,7 @@ class Ui_SplashScreen(object):
     def setupUi(self, SplashScreen):
         if not SplashScreen.objectName():
             SplashScreen.setObjectName(u"SplashScreen")
-        SplashScreen.resize(680, 400)
+        SplashScreen.resize(683, 400)
         SplashScreen.setStyleSheet(u"")
         self.centralwidget = QWidget(SplashScreen)
         self.centralwidget.setObjectName(u"centralwidget")
@@ -75,7 +75,7 @@ class Ui_SplashScreen(object):
         self.label_3.setAlignment(Qt.AlignCenter)
         self.label_credits = QLabel(self.dropShadowFrame)
         self.label_credits.setObjectName(u"label_credits")
-        self.label_credits.setGeometry(QRect(0, 350, 661, 21))
+        self.label_credits.setGeometry(QRect(0, 350, 641, 21))
         font3 = QFont()
         font3.setPointSize(11)
         self.label_credits.setFont(font3)
@@ -96,6 +96,6 @@ class Ui_SplashScreen(object):
         self.label_title.setText(QCoreApplication.translate("SplashScreen", u"COVINFO", None))
         self.label_description.setText(QCoreApplication.translate("SplashScreen", u"COVID-19 Situation Analysis Application", None))
         self.label_3.setText(QCoreApplication.translate("SplashScreen", u"loading...", None))
-        self.label_credits.setText(QCoreApplication.translate("SplashScreen", u"<strong>Created</strong> by ASSD", None))
+        self.label_credits.setText(QCoreApplication.translate("SplashScreen", u"<html><head/><body><p><span style=\" font-weight:600;\">Created</span> by DASS</p></body></html>", None))
     # retranslateUi
 
