@@ -80,3 +80,5 @@ test.py
 *.dll
 *.exe
 
+.pyproject.user
+.pyproject

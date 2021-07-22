@@ -2,6 +2,7 @@ import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls 2.15
 import QtGraphicalEffects 1.15
+import QtCharts 2.15
 import "controls"
 
 Window {
@@ -257,7 +258,7 @@ Window {
                             btnCalculator.isActiveMenu = false
                             btnGraph.isActiveMenu = false
                             btnSettings.isActiveMenu = false
-                            stackView.push(Qt.resolvedUrl("pages/homePage.qml"))
+                            //stackView.push(Qt.resolvedUrl("pages/homePage.qml"))
                         }
                     }
 
@@ -328,7 +329,7 @@ Window {
                 StackView {
                     id: stackView
                     anchors.fill: parent
-                    initialItem: Qt.resolvedUrl("pages/homePage.qml")
+                    //initialItem: Qt.resolvedUrl("pages/homePage.qml")
                 }
             }
 
@@ -397,9 +398,10 @@ Window {
 
 
 
+
+
 /*##^##
 Designer {
-    D{i:0;formeditorZoom:0.6600000262260437}D{i:23;anchors_height:200;anchors_width:200;anchors_x:344;anchors_y:144}
-D{i:12;anchors_height:200;anchors_width:200;anchors_x:15;anchors_y:207}
+    D{i:0;autoSize:true;height:480;width:640}
 }
 ##^##*/

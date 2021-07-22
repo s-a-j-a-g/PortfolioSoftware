@@ -3,6 +3,7 @@ import QtQuick.Window 2.15
 import QtGraphicalEffects 1.0
 import QtQuick.Timeline 1.0
 
+
 Window {
     id: splashScreen
     title: qsTr("SplashScreen")
@@ -223,8 +224,4 @@ Window {
     }
 }
 
-/*##^##
-Designer {
-    D{i:0;formeditorZoom:1.100000023841858}D{i:7}
-}
-##^##*/
+
